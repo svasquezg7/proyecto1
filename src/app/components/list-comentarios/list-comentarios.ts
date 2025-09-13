@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import { Comentario } from '../../interfaces/comentario';
-import { NgForOf } from '@angular/common';
 import { RouterLink } from '@angular/router';
 
 
 
 @Component({
   selector: 'app-list-comentarios',
-  imports: [NgForOf, RouterLink],
+  imports: [ RouterLink],
   templateUrl: './list-comentarios.html',
   styleUrl: './list-comentarios.scss'
 })
